@@ -44,8 +44,8 @@ template<class MatType>
 inline bool IsDiagonal(MatType const& X) {
   using namespace arma;
   
-  for(int i = 0; i < X.n_rows; ++i) {
-    for(int j = i + 1; j < X.n_cols; ++j) {
+  for(arma::uword i = 0; i < X.n_rows; ++i) {
+    for(arma::uword j = i + 1; j < X.n_cols; ++j) {
       if( X(i, j) != 0.0 || X(j, i) != 0.0 ) {
         return false;
       }

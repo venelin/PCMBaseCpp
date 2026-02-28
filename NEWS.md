@@ -5,6 +5,9 @@ date: "04 May, 2025"
 output: html_document
 ---
 
+# PCMBaseCpp 0.1.12
+Fixed gcc compiler warning.
+
 # PCMBaseCpp 0.1.11
 Fixed gcc compiler warning.
 
